@@ -17,4 +17,22 @@ usuario1 = Usuario('Mateo', 28, 'Masculino', 'Colombiana')
 usuario1.mostrarAtributos('El color de tus ojos')
 
 
+class Artista (Usuario):
+    def __init__(self, nombreIn, edadIn, sexoIn, nacionalidadIn, GenmusicalIn, NumdecancionespubIn, NumdealbumnsIn):
+        Usuario.__init__(self, nombreIn, edadIn, sexoIn, nacionalidadIn)
+        self.generomusical = GenmusicalIn
+        self.numerodecacionespublicadas = NumdecancionespubIn
+        self.numerodealbumns = NumdealbumnsIn
+    def cantar (self,ciudad):
+        print (f'''Hola, {ciudad}. Mi nombre es {self.nombre} y nos vemos este
+        28 de Noviembre. ¡Compra tu boleta ya!
+        ''')
+artista1 = Artista('Malbin', 21, 'Masculino', 'Colombiana', 'Reggaeton', 5, 1)
+artista1.cantar('Medellín')
+
+
+
+
+
+
 
