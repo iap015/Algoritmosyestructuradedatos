@@ -1,4 +1,4 @@
-#PUNTO 3t
+#PUNTO 3
 import panda as pd 
 ecgData = pd.read_csv ('ppg.csv',encoding = 'UTF-8', header =  0, delimiter= ';').to_dict()
 print(ecgData)
