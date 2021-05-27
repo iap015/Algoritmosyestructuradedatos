@@ -2,3 +2,7 @@ Consultorio de neurologíaEquipo: Bella
 Descripcion: Covid
 Precio mantenimiento: 9000
 ======================
+Equipo: sara
+Descripcion: leucemia
+Precio mantenimiento: 8000
+======================
